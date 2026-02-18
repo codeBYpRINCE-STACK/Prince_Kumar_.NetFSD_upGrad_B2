@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Online Learning Platform</h1>
+</header>
+
+<nav>
+    <a href="Day2/Multi-Page Website with Breadcrumb Navigation/index.html">Home</a> |
+    <a href="/Users/princekumar/Downloads/week1/Day2/Multi-Page Website with Breadcrumb Navigation/courses/courses.html">Courses</a> |
+</nav>
+
+<hr>
+
+<main>
+    <h2>Course Enrollment Form</h2>
+
+    <form action="#" method="post">
+
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="course">Select Course:</label><br>
+        <input list="courseList" id="course" name="course" required>
+
+        <datalist id="courseList">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Data Analytics">
+            <option value="Cloud Computing">
+        </datalist>
+        <br><br>
+        <label for="skill">Skill Level (Beginner–Advanced):</label><br>
+        <meter id="skill" min="0" max="100" value="40">
+            40%
+        </meter>
+        <br><br>
+
+        <label for="progress">Enrollment Completion:</label><br>
+        <progress id="progress" value="60" max="100">
+            60%
+        </progress>
+        <br><br>
+
+        <label for="experience">Years of Experience (0–10):</label><br>
+        <input type="range" id="experience" name="experience" min="0" max="10">
+        <br><br>
+
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" min="18" max="60" required>
+        <br><br>
+
+        <input type="submit" value="Enroll Now">
+
+    </form>
+</main>
+
+</body>
+</html>
