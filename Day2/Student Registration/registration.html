@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Narayana Student Registration Form</title>
+</head>
+<body>
+
+<header>
+    <h1>Naryana Coaching Institute</h1>
+</header>
+
+<h2>Wlecome!! Here is Your Student Registration Form</h2>
+
+<form action="#" method="post">
+
+    
+    <label for="name" >Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+    <br><br>
+
+
+    <label for="email" >Email Address:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+    <br><br>
+
+    <label for="phone" placeholder="Enter Your Phone Number">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"
+           pattern="[0-9]{10}"
+           placeholder="Enter 10-digit number"
+           required>
+    <br><br>
+
+
+    <label for="age" >Age:</label><br>
+    <input type="number" id="age" name="age"
+           min="18" max="60"
+           placeholder="Enter Your Age"
+           required>
+    <br><br>
+
+    <label for="dob" >Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" placeholder="Enter Your Date of Birth" required>
+    <br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+
+</body>
+</html>
