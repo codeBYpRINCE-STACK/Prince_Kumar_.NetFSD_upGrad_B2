@@ -5,14 +5,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6a0dad; /* Violet background */
+    background-color: #6a0dad; 
     font-family: Arial, sans-serif;
 }
 
 
 .card {
     width: 320px;
-    height: 500px; /* Vertical rectangle */
+    height: 500px; 
     background-color: #000000;
     color: white;
     border-radius: 18px;
