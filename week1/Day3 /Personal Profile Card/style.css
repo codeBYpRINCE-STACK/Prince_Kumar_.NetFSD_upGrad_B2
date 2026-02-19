@@ -1,4 +1,4 @@
-/* Page Styling */
+
 body {
     margin: 0;
     height: 100vh;
@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Card */
+
 .card {
     width: 320px;
     height: 500px; /* Vertical rectangle */
@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
 }
 
-/* Content Area */
+
 .content h1 {
     font-size: 28px;
     letter-spacing: 1px;
@@ -52,7 +52,7 @@ h4 {
     letter-spacing: 1px;
 }
 
-/* Services List */
+
 .services {
     list-style-type: square;
     padding-left: 18px;
@@ -66,7 +66,7 @@ h4 {
     align-items: center;
 }
 
-/* Contact Button */
+
 .contact-btn {
     padding: 12px;
     border: none;
@@ -79,7 +79,7 @@ h4 {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Hover Effect */
+
 .contact-btn:hover {
     background-color: #8e44ad;
     transform: scale(1.08);  /* Button increases size */
