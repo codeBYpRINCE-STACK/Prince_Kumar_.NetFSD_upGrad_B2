@@ -82,6 +82,6 @@ h4 {
 
 .contact-btn:hover {
     background-color: #8e44ad;
-    transform: scale(1.08);  /* Button increases size */
+    transform: scale(1.08);  
 }
 
