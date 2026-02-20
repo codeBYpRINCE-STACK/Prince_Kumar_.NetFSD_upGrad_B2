@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+#studentProfile {
+    border: 2px solid #296f9d;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #af6262;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    background-color: #765dd2;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #89aa93;
+}
